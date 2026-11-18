@@ -1,0 +1,34 @@
+.workspace-heading {
+  min-height: 56px;
+  padding: 8px 24px;
+  border-bottom: 1px solid #e5ebe7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #fff;
+}
+.workspace-heading h1 {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  color: #1f2329;
+  font-size: 20px;
+  font-weight: 650;
+}
+.workspace-heading .header-actions { display:flex; align-items:center; gap:8px; flex-shrink: 0; }
+.workspace-conversation {
+  --cbi-content-width: 960px;
+  --cbi-quiet: #535b63;
+  --cbi-surface: #f8faf8;
+  min-width: 0;
+}
+.workspace-composer {
+  border-top: 1px solid #e5ebe7;
+  background: #fff;
+}
+@media (max-width: 1024px) {
+  .workspace-heading { padding-inline: 16px; }
+}
